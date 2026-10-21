@@ -122,7 +122,7 @@ function ConfiguratorForm({ slug, initial, initialEditing }: { slug: ProductSlug
         </div>
       </div>
 
-      <MobileBar product={product} config={config} price={price} action={action} status={statusMessage} />
+      <MobileBar config={config} price={price} action={action} status={statusMessage} />
     </div>
   );
 }
@@ -425,13 +425,11 @@ function QuantitySection({ config, set }: Omit<SectionProps, "deltaFor">) {
 }
 
 function MobileBar({
-  product,
   config,
   price,
   action,
   status,
 }: {
-  product: Product;
   config: Configuration;
   price: ReturnType<typeof priceItem>;
   action: ReactNode;
