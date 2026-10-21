@@ -28,7 +28,7 @@ export const configurationSchema = z
       /** Number of boards carrying a logo when coverage = "logos". */
       boards: z.int().min(0),
       sides: z.union([z.literal(1), z.literal(2)]),
-      logoUploadId: z.string().max(200).nullable(),
+      logoUploadId: z.uuid().nullable(),
     }),
     finish: z.object({
       type: z.enum(optionCatalog.finishes),

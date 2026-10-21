@@ -13,6 +13,7 @@ import { computeGeometry, octagonDimensions, rectangleDimensions } from "@/lib/p
 import { priceItem } from "@/lib/pricing/price";
 import { configurationSchema, defaultConfiguration, type Configuration } from "@/lib/pricing/schema";
 import { ChoiceGroup, Section, Stepper, ToggleCard, type ChoiceOption } from "./controls";
+import { LogoUpload } from "./LogoUpload";
 import { Preview } from "./Preview";
 import { PriceLines, PriceTotal } from "./PriceSummary";
 
@@ -324,6 +325,7 @@ function BrandingSection({ config, set, deltaFor }: SectionProps) {
           onChange={(sides) => set(withBranding({ sides: sides as 1 | 2 }))}
         />
       ) : null}
+      {b.coverage !== "none" ? <LogoUpload uploadId={b.logoUploadId} onChange={(logoUploadId) => set(withBranding({ logoUploadId }))} /> : null}
     </Section>
   );
 }

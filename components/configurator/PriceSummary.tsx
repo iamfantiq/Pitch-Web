@@ -1,27 +1,16 @@
 "use client";
 
 import { useLocale, useTranslations } from "next-intl";
-import { getProduct } from "@/config/products";
-import { formatNumber, formatPrice } from "@/lib/format";
-import { computeGeometry } from "@/lib/pricing/geometry";
+import { formatPrice } from "@/lib/format";
 import type { ItemPrice, PriceLine } from "@/lib/pricing/price";
 import type { Configuration } from "@/lib/pricing/schema";
+import { lineLabel, type LineTranslator } from "@/lib/quote/describe";
 
 /** Customer-facing label for a price line (shared by configurator, cart and quote pages). */
 export function useLineLabel() {
   const t = useTranslations("configurator.summary.lines");
   const locale = useLocale();
-  return (line: PriceLine, config: Configuration) => {
-    const product = getProduct(config.product);
-    const g = computeGeometry(config);
-    const n = (v: number) => formatNumber(v, locale, 1);
-    return t(line.key, {
-      product: product?.name ?? "",
-      dims: `${n(g.length)} × ${n(g.width)} m`,
-      value: n(g.boardHeight + g.barHeight),
-      qty: line.unit === "m2" ? n(line.qty ?? 0) : (line.qty ?? 0),
-    });
-  };
+  return (line: PriceLine, config: Configuration) => lineLabel(line, config, t as unknown as LineTranslator, locale);
 }
 
 export function PriceLines({ price, config }: { price: ItemPrice; config: Configuration }) {
