@@ -19,7 +19,7 @@ export function useLineLabel() {
       product: product?.name ?? "",
       dims: `${n(g.length)} × ${n(g.width)} m`,
       value: n(g.boardHeight + g.barHeight),
-      qty: line.qty ?? 0,
+      qty: line.unit === "m2" ? n(line.qty ?? 0) : (line.qty ?? 0),
     });
   };
 }

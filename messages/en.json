@@ -196,6 +196,11 @@
     "added": "Added to cart.",
     "updated": "Cart updated.",
     "viewCart": "View cart",
-    "invalid": "Please check the highlighted options."
+    "invalid": "Please check the highlighted options.",
+    "view3d": "3D",
+    "view2d": "Drawing",
+    "viewLabel": "Preview mode",
+    "dragHint": "Drag to rotate, pinch or scroll to zoom.",
+    "model": "3D model of your {product}"
   }
 }

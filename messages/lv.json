@@ -196,6 +196,11 @@
     "added": "Pievienots grozam.",
     "updated": "Grozs atjaunots.",
     "viewCart": "Skatīt grozu",
-    "invalid": "Lūdzu, pārbaudi iezīmētās izvēles."
+    "invalid": "Lūdzu, pārbaudi iezīmētās izvēles.",
+    "view3d": "3D",
+    "view2d": "Zīmējums",
+    "viewLabel": "Priekšskatījuma režīms",
+    "dragHint": "Velc, lai pagrieztu; saspied vai ritini, lai tuvinātu.",
+    "model": "Tava {product} 3D modelis"
   }
 }
