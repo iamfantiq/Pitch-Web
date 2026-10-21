@@ -25,18 +25,36 @@
     "learnMore": "Uzzināt vairāk",
     "howTitle": "Kā tas strādā.",
     "steps": {
-      "pick": { "title": "Izvēlies", "text": "Izvēlies laukuma veidu, kas der tavai vietai un spēlētājiem." },
-      "configure": { "title": "Konfigurē", "text": "Iestati izmēru, augstumu, zīmolu un papildus. Cena mainās uzreiz." },
-      "offer": { "title": "Saņem piedāvājumu", "text": "Pievieno laukumus grozam un pieprasi piedāvājumu. Mēs atsūtīsim PDF piedāvājumu." }
+      "pick": {
+        "title": "Izvēlies",
+        "text": "Izvēlies laukuma veidu, kas der tavai vietai un spēlētājiem."
+      },
+      "configure": {
+        "title": "Konfigurē",
+        "text": "Iestati izmēru, augstumu, zīmolu un papildus. Cena mainās uzreiz."
+      },
+      "offer": {
+        "title": "Saņem piedāvājumu",
+        "text": "Pievieno laukumus grozam un pieprasi piedāvājumu. Mēs atsūtīsim PDF piedāvājumu."
+      }
     },
     "referencesTitle": "Radīts spēlei.",
     "referencesSubtitle": "Ielu turnīri, skolu pagalmi, zīmolu aktivitātes un klubu treniņu laukumi.",
     "referenceAlt": "Uzstādīts laukums {n}",
     "featuresTitle": "Modulārs pēc būtības.",
     "features": {
-      "modular": { "title": "Modulārs", "text": "Saskrūvējami borti. Uzstādīšana un demontāža stundu laikā." },
-      "durable": { "title": "Izturīgs", "text": "Cinkoti tērauda rāmji un mitrumizturīgs saplāksnis." },
-      "branded": { "title": "Ar zīmolu", "text": "Logotipi vai pilna apdruka vienā vai abās pusēs." }
+      "modular": {
+        "title": "Modulārs",
+        "text": "Saskrūvējami borti. Uzstādīšana un demontāža stundu laikā."
+      },
+      "durable": {
+        "title": "Izturīgs",
+        "text": "Cinkoti tērauda rāmji un mitrumizturīgs saplāksnis."
+      },
+      "branded": {
+        "title": "Ar zīmolu",
+        "text": "Logotipi vai pilna apdruka vienā vai abās pusēs."
+      }
     }
   },
   "product": {
@@ -53,7 +71,10 @@
     "barsAbove": "{board} m borts + {bars} m stieņi",
     "goal": "Vārtu izmērs",
     "shape": "Forma",
-    "shapes": { "rectangle": "Taisnstūris", "octagon": "Astoņstūris" },
+    "shapes": {
+      "rectangle": "Taisnstūris",
+      "octagon": "Astoņstūris"
+    },
     "boardWidth": "Borta platums",
     "construction": "Konstrukcija",
     "constructionValue": "Tērauda rāmis, saplākšņa borti",
@@ -72,5 +93,109 @@
   "units": {
     "m": "{value} m",
     "dims": "{length} × {width} m"
+  },
+  "configurator": {
+    "title": "Konfigurē {product}",
+    "back": "‹ {product}",
+    "preview": "Priekšskatījums",
+    "sections": {
+      "size": "Izmērs",
+      "height": "Augstums",
+      "goals": "Vārti",
+      "fencing": "Tīkls aiz vārtiem",
+      "branding": "Zīmols",
+      "finish": "Rāmja apdare",
+      "surface": "Segums",
+      "extras": "Papildus",
+      "quantity": "Daudzums"
+    },
+    "hints": {
+      "size": "Izmērs mainās veselos bortos, tāpēc visas detaļas paliek standarta.",
+      "fencing": "Bumbu tīkls aiz katriem vārtiem.",
+      "branding": "Apdruka uz bortiem. Logotipu augšupielādē kopā ar pieprasījumu.",
+      "finish": "Visi rāmji ir karsti cinkoti. Pēc izvēles — pulverkrāsojums."
+    },
+    "length": "Garums",
+    "width": "Platums",
+    "boardsLength": "{count, plural, zero {# borti} one {# borts} other {# borti}} garajā malā",
+    "boardsWidth": "{count, plural, zero {# borti} one {# borts} other {# borti}} katrā vārtu pusē",
+    "decrease": "Samazināt: {what}",
+    "increase": "Palielināt: {what}",
+    "octagonSize": "{size} m",
+    "boardHeight": "Borta augstums",
+    "barHeight": "Stieņi virs bortiem",
+    "totalHeight": "Kopējais augstums {value} m",
+    "goal": {
+      "standard": "Standarta",
+      "standardText": "Tērauda rāmis, standarta tīkls",
+      "pro": "Pro",
+      "proText": "Pastiprināts rāmis, bezmezglu tīkls"
+    },
+    "fencingNone": "Nav",
+    "fencingHeight": "{value} m augsts",
+    "coverage": {
+      "none": "Nav",
+      "noneText": "Tīrs saplāksnis",
+      "logos": "Logotipi",
+      "logosText": "Uz izvēlētiem bortiem",
+      "full": "Pilna apdruka",
+      "fullText": "Visi borti"
+    },
+    "logoBoards": "Borti ar logotipiem",
+    "sides": {
+      "label": "Apdruka",
+      "one": "Iekšpusē",
+      "two": "Abās pusēs"
+    },
+    "finishType": {
+      "galvanized": "Cinkots",
+      "galvanizedText": "Sudrabains, bez apkopes",
+      "powder": "Pulverkrāsots",
+      "powderText": "RAL krāsā"
+    },
+    "colour": "Krāsa",
+    "surface": {
+      "none": "Bez seguma",
+      "noneText": "Uz jūsu pamatnes",
+      "turf": "Mākslīgais zālājs",
+      "turfText": "Iekļauti {area} m²"
+    },
+    "extras": {
+      "transportCart": "Transporta ratiņi",
+      "transportCartText": "Bortu pārvietošanai un glabāšanai",
+      "storageBags": "Glabāšanas somas",
+      "storageBagsText": "Tīkliem un stiprinājumiem",
+      "installation": "Uzstādīšana objektā",
+      "installationText": "Mūsu komanda uzstāda laukumu"
+    },
+    "included": "Iekļauts",
+    "summary": {
+      "title": "Kopsavilkums",
+      "total": "Kopā",
+      "perUnit": "{price} gab.",
+      "exclVat": "Bez PVN. Piegāde tiek aprēķināta pasūtot.",
+      "lines": {
+        "base": "{product}, standarta",
+        "size": "Izmērs {dims}",
+        "height": "Augstums {value} m",
+        "goal": "Pro vārti",
+        "fencing": "Tīkls aiz vārtiem ({qty} m²)",
+        "branding": "Zīmols ({qty} m² apdrukas)",
+        "finish": "Pulverkrāsojums",
+        "surface": "Mākslīgais zālājs ({qty} m²)",
+        "transportCart": "Transporta ratiņi × {qty}",
+        "storageBags": "Glabāšanas somas",
+        "installation": "Uzstādīšana ({qty, plural, zero {# dienas} one {# diena} other {# dienas}})"
+      },
+      "quantity": "× {count}",
+      "showDetails": "Rādīt cenas detaļas",
+      "hideDetails": "Slēpt cenas detaļas"
+    },
+    "addToCart": "Pievienot grozam",
+    "updateCart": "Atjaunot groza preci",
+    "added": "Pievienots grozam.",
+    "updated": "Grozs atjaunots.",
+    "viewCart": "Skatīt grozu",
+    "invalid": "Lūdzu, pārbaudi iezīmētās izvēles."
   }
 }

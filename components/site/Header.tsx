@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { site } from "@/config/site";
 import { Link } from "@/i18n/navigation";
+import { CartLink } from "./CartLink";
 import { LocaleSwitcher } from "./LocaleSwitcher";
 
 export function Header() {
@@ -23,6 +24,7 @@ export function Header() {
             {t("howItWorks")}
           </Link>
           <LocaleSwitcher />
+          <CartLink />
         </nav>
       </div>
     </header>

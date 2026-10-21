@@ -25,18 +25,36 @@
     "learnMore": "Learn more",
     "howTitle": "How it works.",
     "steps": {
-      "pick": { "title": "Pick", "text": "Choose a pitch type that fits your space and your players." },
-      "configure": { "title": "Configure", "text": "Set the size, height, branding and extras. The price updates live." },
-      "offer": { "title": "Get an offer", "text": "Add pitches to your cart and request a quote. We reply with a PDF offer." }
+      "pick": {
+        "title": "Pick",
+        "text": "Choose a pitch type that fits your space and your players."
+      },
+      "configure": {
+        "title": "Configure",
+        "text": "Set the size, height, branding and extras. The price updates live."
+      },
+      "offer": {
+        "title": "Get an offer",
+        "text": "Add pitches to your cart and request a quote. We reply with a PDF offer."
+      }
     },
     "referencesTitle": "Built for play.",
     "referencesSubtitle": "Street tournaments, school yards, brand activations and club training grounds.",
     "referenceAlt": "Reference installation {n}",
     "featuresTitle": "Modular by design.",
     "features": {
-      "modular": { "title": "Modular", "text": "Bolt-together boards. Set up and take down in hours." },
-      "durable": { "title": "Durable", "text": "Galvanised steel frames and weather-proof plywood." },
-      "branded": { "title": "Branded", "text": "Logos or full wrap on one or both sides." }
+      "modular": {
+        "title": "Modular",
+        "text": "Bolt-together boards. Set up and take down in hours."
+      },
+      "durable": {
+        "title": "Durable",
+        "text": "Galvanised steel frames and weather-proof plywood."
+      },
+      "branded": {
+        "title": "Branded",
+        "text": "Logos or full wrap on one or both sides."
+      }
     }
   },
   "product": {
@@ -53,7 +71,10 @@
     "barsAbove": "{board} m board + {bars} m bars",
     "goal": "Goal size",
     "shape": "Shape",
-    "shapes": { "rectangle": "Rectangle", "octagon": "Octagon" },
+    "shapes": {
+      "rectangle": "Rectangle",
+      "octagon": "Octagon"
+    },
     "boardWidth": "Board width",
     "construction": "Construction",
     "constructionValue": "Steel frame, plywood boards",
@@ -72,5 +93,109 @@
   "units": {
     "m": "{value} m",
     "dims": "{length} × {width} m"
+  },
+  "configurator": {
+    "title": "Configure {product}",
+    "back": "‹ {product}",
+    "preview": "Preview",
+    "sections": {
+      "size": "Size",
+      "height": "Height",
+      "goals": "Goals",
+      "fencing": "Net behind goals",
+      "branding": "Branding",
+      "finish": "Frame finish",
+      "surface": "Surface",
+      "extras": "Extras",
+      "quantity": "Quantity"
+    },
+    "hints": {
+      "size": "Sizes change in whole boards, so every part stays standard.",
+      "fencing": "A ball-stop net behind each goal.",
+      "branding": "Printed on the boards. Upload your logo with the quote.",
+      "finish": "All frames are hot-dip galvanized. Add a powder-coated colour on top."
+    },
+    "length": "Length",
+    "width": "Width",
+    "boardsLength": "{count, plural, one {# board} other {# boards}} per long side",
+    "boardsWidth": "{count, plural, one {# board} other {# boards}} each side of the goal",
+    "decrease": "Decrease {what}",
+    "increase": "Increase {what}",
+    "octagonSize": "{size} m",
+    "boardHeight": "Board height",
+    "barHeight": "Bars above boards",
+    "totalHeight": "Total height {value} m",
+    "goal": {
+      "standard": "Standard",
+      "standardText": "Steel frame, standard net",
+      "pro": "Pro",
+      "proText": "Reinforced frame, knotless net"
+    },
+    "fencingNone": "None",
+    "fencingHeight": "{value} m high",
+    "coverage": {
+      "none": "None",
+      "noneText": "Plain plywood",
+      "logos": "Logos",
+      "logosText": "On selected boards",
+      "full": "Full wrap",
+      "fullText": "Every board"
+    },
+    "logoBoards": "Boards with logos",
+    "sides": {
+      "label": "Print on",
+      "one": "Inside",
+      "two": "Both sides"
+    },
+    "finishType": {
+      "galvanized": "Galvanized",
+      "galvanizedText": "Silver, maintenance-free",
+      "powder": "Powder-coated",
+      "powderText": "In a RAL colour"
+    },
+    "colour": "Colour",
+    "surface": {
+      "none": "No surface",
+      "noneText": "Use your own ground",
+      "turf": "Artificial turf",
+      "turfText": "{area} m² included"
+    },
+    "extras": {
+      "transportCart": "Transport carts",
+      "transportCartText": "Move and store the boards",
+      "storageBags": "Storage bags",
+      "storageBagsText": "For nets and hardware",
+      "installation": "Installation on site",
+      "installationText": "Our team sets it up"
+    },
+    "included": "Included",
+    "summary": {
+      "title": "Summary",
+      "total": "Total",
+      "perUnit": "{price} each",
+      "exclVat": "Excl. VAT. Delivery calculated at checkout.",
+      "lines": {
+        "base": "{product}, standard",
+        "size": "Size {dims}",
+        "height": "Height {value} m",
+        "goal": "Pro goals",
+        "fencing": "Net behind goals ({qty} m²)",
+        "branding": "Branding ({qty} m² print)",
+        "finish": "Powder coating",
+        "surface": "Artificial turf ({qty} m²)",
+        "transportCart": "Transport carts × {qty}",
+        "storageBags": "Storage bags",
+        "installation": "Installation ({qty, plural, one {# day} other {# days}})"
+      },
+      "quantity": "× {count}",
+      "showDetails": "Show price details",
+      "hideDetails": "Hide price details"
+    },
+    "addToCart": "Add to cart",
+    "updateCart": "Update cart item",
+    "added": "Added to cart.",
+    "updated": "Cart updated.",
+    "viewCart": "View cart",
+    "invalid": "Please check the highlighted options."
   }
 }
