@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "Modulāri futbola laukumi — konfigurē un pieprasi piedāvājumu",
+    "description": "Modulāri futbola laukumi un būri ar tērauda rāmjiem un saplākšņa bortiem. Izvēlies izmēru, augstumu un zīmolu, redzi cenu uzreiz un pieprasi piedāvājumu."
+  },
+  "nav": {
+    "products": "Produkti",
+    "howItWorks": "Kā tas strādā",
+    "references": "Atsauksmes",
+    "cart": "Grozs",
+    "language": "Valoda",
+    "skip": "Pāriet uz saturu"
+  },
+  "home": {
+    "eyebrow": "Modulāri futbola laukumi",
+    "title": "Tavs laukums. Jebkur.",
+    "subtitle": "Tērauda rāmji, saplākšņa borti, tavs zīmols. Būvēts moduļos, uzstādāms stundu laikā — klubiem, pašvaldībām, pasākumiem un zīmoliem.",
+    "ctaConfigure": "Konfigurē savu laukumu",
+    "ctaLineup": "Skatīt produktus",
+    "lineupTitle": "Produkti.",
+    "lineupSubtitle": "Pieci standarta formāti. Katru var pielāgot.",
+    "from": "No {price}",
+    "exclVat": "bez PVN",
+    "configure": "Konfigurēt",
+    "learnMore": "Uzzināt vairāk",
+    "howTitle": "Kā tas strādā.",
+    "steps": {
+      "pick": { "title": "Izvēlies", "text": "Izvēlies laukuma veidu, kas der tavai vietai un spēlētājiem." },
+      "configure": { "title": "Konfigurē", "text": "Iestati izmēru, augstumu, zīmolu un papildus. Cena mainās uzreiz." },
+      "offer": { "title": "Saņem piedāvājumu", "text": "Pievieno laukumus grozam un pieprasi piedāvājumu. Mēs atsūtīsim PDF piedāvājumu." }
+    },
+    "referencesTitle": "Radīts spēlei.",
+    "referencesSubtitle": "Ielu turnīri, skolu pagalmi, zīmolu aktivitātes un klubu treniņu laukumi.",
+    "referenceAlt": "Uzstādīts laukums {n}",
+    "featuresTitle": "Modulārs pēc būtības.",
+    "features": {
+      "modular": { "title": "Modulārs", "text": "Saskrūvējami borti. Uzstādīšana un demontāža stundu laikā." },
+      "durable": { "title": "Izturīgs", "text": "Cinkoti tērauda rāmji un mitrumizturīgs saplāksnis." },
+      "branded": { "title": "Ar zīmolu", "text": "Logotipi vai pilna apdruka vienā vai abās pusēs." }
+    }
+  },
+  "product": {
+    "taglines": {
+      "the-cage": "Pilns būris. Borti un stieņi, 2,5 m augstumā.",
+      "the-pitch": "Klasika. Borti visapkārt, gatavs jebkuram pasākumam.",
+      "kids-pitch": "Mazi spēlētāji, lielas spēles. Zemi borti, mazi vārti.",
+      "panna-cage": "Viens pret vienu būrī. Astoņstūris ar stieņiem.",
+      "panna-pitch": "Ielas duelis. Kompakts astoņstūris, zemi borti."
+    },
+    "specs": "Specifikācija",
+    "size": "Laukuma izmērs",
+    "height": "Bortu augstums",
+    "barsAbove": "{board} m borts + {bars} m stieņi",
+    "goal": "Vārtu izmērs",
+    "shape": "Forma",
+    "shapes": { "rectangle": "Taisnstūris", "octagon": "Astoņstūris" },
+    "boardWidth": "Borta platums",
+    "construction": "Konstrukcija",
+    "constructionValue": "Tērauda rāmis, saplākšņa borti",
+    "branding": "Zīmols",
+    "brandingValue": "Pielāgojams",
+    "standardPrice": "Standarta konfigurācija",
+    "configure": "Konfigurēt un aprēķināt cenu",
+    "back": "Visi produkti",
+    "customise": "Viss ir pielāgojams: izmērs, augstums, zīmols, tīkls aiz vārtiem, rāmja krāsa, mākslīgais zālājs un uzstādīšana."
+  },
+  "footer": {
+    "tagline": "Modulāri futbola laukumi, ražoti Latvijā.",
+    "rights": "Visas tiesības aizsargātas.",
+    "pricesNote": "Visas cenas EUR, bez PVN."
+  },
+  "units": {
+    "m": "{value} m",
+    "dims": "{length} × {width} m"
+  }
+}

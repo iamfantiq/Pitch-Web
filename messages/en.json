@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "Modular Football Pitches — Configure & Request a Quote",
+    "description": "Modular football pitches and cages with steel frames and plywood boards. Configure size, height and branding, see the price live, and request an offer."
+  },
+  "nav": {
+    "products": "Products",
+    "howItWorks": "How it works",
+    "references": "References",
+    "cart": "Cart",
+    "language": "Language",
+    "skip": "Skip to content"
+  },
+  "home": {
+    "eyebrow": "Modular football pitches",
+    "title": "Your pitch. Anywhere.",
+    "subtitle": "Steel frames, plywood boards, your branding. Built in modules, set up in hours — for clubs, cities, events and brands.",
+    "ctaConfigure": "Configure your pitch",
+    "ctaLineup": "See the lineup",
+    "lineupTitle": "The lineup.",
+    "lineupSubtitle": "Five standard formats. Every one customisable.",
+    "from": "From {price}",
+    "exclVat": "excl. VAT",
+    "configure": "Configure",
+    "learnMore": "Learn more",
+    "howTitle": "How it works.",
+    "steps": {
+      "pick": { "title": "Pick", "text": "Choose a pitch type that fits your space and your players." },
+      "configure": { "title": "Configure", "text": "Set the size, height, branding and extras. The price updates live." },
+      "offer": { "title": "Get an offer", "text": "Add pitches to your cart and request a quote. We reply with a PDF offer." }
+    },
+    "referencesTitle": "Built for play.",
+    "referencesSubtitle": "Street tournaments, school yards, brand activations and club training grounds.",
+    "referenceAlt": "Reference installation {n}",
+    "featuresTitle": "Modular by design.",
+    "features": {
+      "modular": { "title": "Modular", "text": "Bolt-together boards. Set up and take down in hours." },
+      "durable": { "title": "Durable", "text": "Galvanised steel frames and weather-proof plywood." },
+      "branded": { "title": "Branded", "text": "Logos or full wrap on one or both sides." }
+    }
+  },
+  "product": {
+    "taglines": {
+      "the-cage": "The full cage. Boards and bars, 2.5 m high.",
+      "the-pitch": "The classic. Boards all around, ready for any event.",
+      "kids-pitch": "Small players, big games. Low boards, small goals.",
+      "panna-cage": "One-on-one in a cage. Octagon with bars.",
+      "panna-pitch": "The street duel. Compact octagon, low boards."
+    },
+    "specs": "Specifications",
+    "size": "Pitch size",
+    "height": "Boarding height",
+    "barsAbove": "{board} m board + {bars} m bars",
+    "goal": "Goal size",
+    "shape": "Shape",
+    "shapes": { "rectangle": "Rectangle", "octagon": "Octagon" },
+    "boardWidth": "Board width",
+    "construction": "Construction",
+    "constructionValue": "Steel frame, plywood boards",
+    "branding": "Branding",
+    "brandingValue": "Customisable",
+    "standardPrice": "Standard configuration",
+    "configure": "Configure and price",
+    "back": "All products",
+    "customise": "Everything is customisable: size, height, branding, fencing behind goals, frame colour, artificial turf and installation."
+  },
+  "footer": {
+    "tagline": "Modular football pitches, made in Latvia.",
+    "rights": "All rights reserved.",
+    "pricesNote": "All prices in EUR, excluding VAT."
+  },
+  "units": {
+    "m": "{value} m",
+    "dims": "{length} × {width} m"
+  }
+}
